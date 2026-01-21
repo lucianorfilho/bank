@@ -21,7 +21,8 @@ jobs:
         run: pip install notebook nbconvert numpy pillow matplotlib opencv-python
 
       - name: Descompactar imagens
-        run: pip install gdown
+        run: |
+             pip install gdown
              gdown --id 1ypYZqnlMUFiC8z-i6Ttl3gsK0v2Beh08 -O dataset.zip
              unzip dataset.zip -d data/
 
