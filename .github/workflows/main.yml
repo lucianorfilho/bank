@@ -23,7 +23,7 @@ jobs:
       - name: Descompactar imagens
         run: |
              pip install gdown
-             gdown --id 1ypYZqnlMUFiC8z-i6Ttl3gsK0v2Beh08 -O dataset.zip
+             gdown --id 1N4hax6GZIM0aITx4jkH11wUVLIif71tq -O dataset.zip
              unzip dataset.zip -d data/
 
       - name: Executar notebook
